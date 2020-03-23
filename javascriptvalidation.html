@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
 <!-- jQuery library -->
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 <!-- Popper JS -->
@@ -64,14 +65,13 @@
   <input type="date" id="DOB" name="DOB" class="form-control">
            </div><br>
             <div>
-
-                <label> Gender: </label>
-                <select id="Gender" name="Gender" class="form-control">
-                    <option value="Male">Male</option>
-                    <option value="Female">Female</option>
-                    <option value="Others">Others</option>
+                    <label> Gender: </label>
+                    <select id="Gender" name="Gender" class="form-control">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Others">Others</option>
                     
-                </select><br>
+ </select><br>
 
                </div>
                <div ><label for="DOJ" >Date Of Joining:</label>
@@ -88,21 +88,22 @@
                     <span id="altemails" class="text-danger font-weight-bold"></span> 
                 </div>
                 <div >
-                    <label> Contact 1: </label><br>
-                    <select id="Contact" name="Contact">
+                    <label  >  Contact 1: </label><br>
+                    <select  style="height: 29px;" id="Contact" name="Contact">
                     <option value="Mobile">Mobile</option>
                     <option value="Home">Home</option>
                     
                 </select>
                 <input type = "text" name="phone_number1"  id="phone_number1" maxlength="10" >
+                <span id="phone_number1s" class="text-danger font-weight-bold"></span>
                 <label>Country Code</label>
-                    <select id="CountryCode1" name="CountryCode">
+                    <select style="height: 29px;" id="CountryCode1" name="CountryCode">
                     <option value="India">India</option>
                     <option value="b">b</option>
                     </select>
                     
                     <label>Area Code</label>
-                        <select id="AreaCode1" name="AreaCode">
+                        <select style="height: 29px;" style="height: 29px;" id="AreaCode1" name="AreaCode">
                         <option value="Faridabad">Faridabad</option>
                         <option value="b">b</option>
                         </select>
@@ -110,20 +111,21 @@
                 </div>
                 <div >
                     <label> Contact 2: </label><br>
-                    <select id="Contact2" name="Contact2">
+                    <select style="height: 29px;" id="Contact2" name="Contact2">
                     <option value="Mobile">Mobile</option>
                     <option value="Home">Home</option>
                     
                 </select>
                 <input type = "text" name="phone_number2"  id="phone_number2" maxlength="10" >
+                <span id="phone_number2s" class="text-danger font-weight-bold"></span>
                 <label>Country Code</label>
-                    <select id="CountryCode2" name="CountryCode2">
+                    <select style="height: 29px;" id="CountryCode2" name="CountryCode2">
                     <option value="India">India</option>
                     <option value="b">b</option>
                     </select>
                     
                     <label>Area Code</label>
-                        <select id="AreaCode2" name="AreaCode2">
+                        <select style="height: 29px;" id="AreaCode2" name="AreaCode2">
                         <option value="Faridabad">Faridabad</option>
                         <option value="b">b</option>
                         </select>
@@ -131,75 +133,76 @@
                 </div>
                 <div >
                     <label> Contact 3: </label><br>
-                    <select id="Contact3" name="Contact3">
+                    <select style="height: 29px;" style="height: 29px;" id="Contact3" name="Contact3">
                     <option value="Mobile">Mobile</option>
                     <option value="Home">Home</option>
                     
                 </select>
                 <input type = "text" name="phone_number3"  id="phone_number3" maxlength="10" >
+                <span id="phone_number3s" class="text-danger font-weight-bold"></span>
                 <label>Country Code</label>
-                    <select id="CountryCode3" name="CountryCode3">
+                    <select style="height: 29px;" id="CountryCode3" name="CountryCode3">
                     <option value="India">India</option>
                     <option value="b">b</option>
                     </select>
                     
                     <label>Area Code</label>
-                        <select id="AreaCode3" name="AreaCode3">
+                        <select style="height: 29px;" id="AreaCode3" name="AreaCode3">
                         <option value="Faridabad">Faridabad</option>
                         <option value="b">b</option>
                         </select>
                 
-                </div>
+                </div><br>
                 <div >
                     <label> Address: </label><br>
                     <label> Current: </label><input type = "text" name="CurrentAddress"  id="CurrentAddress" size="50" maxlength="50" >
                     <label> City: </label>
-                    <select id="city1" name="city1">
+                    <select style="height: 29px;" id="city1" name="city1">
                     <option value="Faridabad">Faridabad</option>
                     <option value="Home">Home</option>
                     
                 </select>
                 <label> State: </label>
-                <select id="State1" name="State1">
+                <select style="height: 29px;" id="State1" name="State1">
                 <option value="Haryana">Haryana</option>
                 <option value="Home">Home</option>
                 
             </select>
             <label> Country: </label>
-            <select id="Country1" name="Country1">
+            <select style="height: 29px;" id="Country1" name="Country1">
             <option value="India">India</option>
             <option value="Home">Home</option>
             
         </select>
         <label>Pincode</label>
-                <input type = "text" name="pincode1"  id="pincode1" maxlength="10" >
+                <input type = "text" name="pincode1"  id="pincode1" maxlength="6" >
                 
                 </div><br>
                 <div >
                     
                     <label> Permanent: </label><input type = "text" name="PermanentAddress"  id="PermanentAddress" size="50" maxlength="50" >
                     <label> City: </label>
-                    <select id="city2" name="city2">
+                    <select style="height: 29px;" id="city2" name="city2">
                     <option value="Faridabad">Faridabad</option>
                     <option value="Home">Home</option>
                     
                 </select>
                 <label> State: </label>
-                <select id="State2" name="State2">
+                <select style="height: 29px;" id="State2" name="State2">
                 <option value="Haryana">Haryana</option>
                 <option value="Home">Home</option>
                 
             </select>
             <label> Country: </label>
-            <select id="Country2" name="Country2">
+            <select style="height: 29px;" id="Country2" name="Country2">
             <option value="India">India</option>
             <option value="Home">Home</option>
             
         </select>
         <label>Pincode</label>
-                <input type = "text" name="pincode2"  id="pincode2" maxlength="10" >
+                <input type = "text" name="pincode2"  id="pincode2" maxlength="6" >
                 
-                </div>
+                </div><br>
 
 
                 <input type="Submit" name="submit" value="submit" class="btn btn-success">
@@ -269,6 +272,35 @@ if(passwords!=confirmpasss)
             if((altemails.charAt(altemails.length-4)!='.')&&(altemails.charAt(altemails.length-3)!='.')){
             document.getElementById('altemails').innerHTML=". Is At Invalid position" ;
             return false; }
+           
+            var phone_number1s = document.getElementById('phone_number1').value;
+            if (phone_number1s==""){
+        document.getElementById('phone_number1s').innerHTML="Enter Contact Number" ;
+        return false; }
+            if (isNaN(phone_number1s)){
+        document.getElementById('phone_number1s').innerHTML="**Only Digits Allowed" ;
+        return false; }
+        if (phone_number1s.length!=10){
+        document.getElementById('phone_number1s').innerHTML="Enter 10 Digits" ;
+        return false; }
+        
+        var phone_number2s = document.getElementById('phone_number2').value;
+        if (isNaN(phone_number2s)){
+        document.getElementById('phone_number2s').innerHTML="**Only Digits Allowed" ;
+        return false; }
+        if (phone_number2s.length>=1 && phone_number2s.length<=9){
+        document.getElementById('phone_number2s').innerHTML="Enter 10 Digits" ;
+        return false; }
+       
+        var phone_number3s = document.getElementById('phone_number3').value;
+        if (isNaN(phone_number3s)){
+        document.getElementById('phone_number3s').innerHTML="**Only Digits Allowed" ;
+        return false; }
+
+        if (phone_number3s.length>=1 &&  phone_number3s.length<=9){
+        document.getElementById('phone_number3s').innerHTML="Enter 10 Digits" ;
+        return false; }
+
     }
 
                 </script>
